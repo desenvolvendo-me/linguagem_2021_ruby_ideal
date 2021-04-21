@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "linguagem_2021_ruby_ideal"
+require 'greedy'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
