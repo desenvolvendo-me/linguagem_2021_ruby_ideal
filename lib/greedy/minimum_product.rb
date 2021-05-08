@@ -1,7 +1,7 @@
 module Greedy
   class MinimumProduct
     def run(a, n)
-      return a[0] if (n == 1)
+      
       max_neg = -4611686018427387903
       min_pos = 4611686018427387903
 
