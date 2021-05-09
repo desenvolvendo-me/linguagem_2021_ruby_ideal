@@ -20,7 +20,6 @@
             "cwd": "${workspaceRoot}",
             "useBundler": true,
             "pathToBundler": "${env:rvm_path}/gems/ruby-2.6.6/bin/bundle",
-            "pathToRDebugIDE": "${env:rvm_path}/gems/ruby-2.6.6/gems/ruby-debug-ide-2.3.1/bin/rdebug-ide",
             "program": "${workspaceRoot}/bin/rails",
             "args": [
                 "server",
@@ -46,7 +45,6 @@
             "cwd": "${workspaceRoot}",
             "useBundler": true,
             "pathToBundler": "${env:rvm_path}/gems/ruby-2.6.6/bin/bundle",
-            "pathToRDebugIDE": "${env:rvm_path}/gems/ruby-2.6.6/gems/ruby-debug-ide-2.3.1/bin/rdebug-ide",
             "debuggerPort": "1235",
             "program": "${env:rvm_path}/gems/ruby-2.6.6/bin/rspec",
             "args": [
@@ -60,7 +58,6 @@
           "cwd": "${workspaceRoot}",
           "useBundler": true,
           "pathToBundler": "${env:rvm_path}/gems/ruby-2.6.6/bin/bundle",
-          "pathToRDebugIDE": "${env:rvm_path}/gems/ruby-2.6.6/gems/ruby-debug-ide-2.3.1/bin/rdebug-ide",
           "debuggerPort": "1235",
           "program": "${env:rvm_path}/gems/ruby-2.6.6/bin/rspec",
           "args": ["${file}:${lineNumber}"]
