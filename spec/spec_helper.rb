@@ -2,6 +2,7 @@
 
 require "linguagem_2021_ruby_ideal"
 require 'greedy'
+require 'search'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
