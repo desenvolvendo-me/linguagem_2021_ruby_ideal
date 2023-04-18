@@ -1,16 +1,20 @@
 module Greedy
   class MaximumSum
+
+    def initialize
+      @sum = 0
+    end
+
     def run(array)
       array.each_with_index do |item, index|
         array[index] = item.abs if item.negative?
       end
-
-      sum = 0
+      
       array.each do |item|
-        sum += item
+        @sum += item
       end
 
-      sum
+      @sum
     end
   end
 end
