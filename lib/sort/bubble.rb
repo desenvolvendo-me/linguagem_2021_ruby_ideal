@@ -8,7 +8,7 @@ module Sort
         swapped = false
 
         (length - 1).times do |i|
-          next unless array[i] > array[i + 1]
+          next unless array[i] < array[i + 1]
 
           exp = array[i]
           array[i] = array[i + 1]
