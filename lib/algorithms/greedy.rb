@@ -4,7 +4,10 @@ require_relative "greedy/minimum_product"
 require_relative "greedy/minimum_sum"
 require_relative "greedy/maximum_sum"
 
-module Greedy
-  class Error < StandardError; end
-  # Your code goes here...
+module Algorithms
+  module Greedy
+    class Error < StandardError; end
+
+    # Your code goes here...
+  end
 end
