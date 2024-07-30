@@ -13,4 +13,4 @@ gem "rubocop", "~> 1.7"
 
 gem "ruby-debug-ide"
 
-gem 'set'
+gem "set"
